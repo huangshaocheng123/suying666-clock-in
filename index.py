@@ -87,7 +87,7 @@ def sendMessage(msg):
     # print(msg)
     if key:
         res = requests.post(
-            url='https://sc.ftqq.com/' + key + '.send',
+            url='https://sctapi.ftqq.com/' + key + '.send',
             data={
                 'title': '速鹰666自动签到结果通知',
                 'desp': msg
